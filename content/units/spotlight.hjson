@@ -1,0 +1,51 @@
+type: flying 
+flying: true
+wobble: false
+bounded: false
+physics: false
+createWreck: false
+createScorch: false
+useUnitCap: false
+alwaysUnlocked: true
+isEnemy: false
+hittable: false
+targetable: false
+logicControllable: false
+playerControllable: false
+speed: 6.65
+rotateSpeed: 5
+drag: 0.0085
+accel: 0.0085
+omniMovement: true
+strafePenalty: 1
+engineSize: 0
+drawCell: false
+drawItems: false
+drawShields: false
+drawSoftShadow: false
+drawMinimap: false
+
+parts: [
+  {
+    type: RegionPart
+    suffix: "-glow"
+    blending: additive
+    outline: false
+    mirror: false
+  }
+]
+
+hitSize: 24
+health: 1000
+shadowElevationScl: 0
+softShadowScl: 0
+canAttack: false
+faceTarget: false
+
+lightColor: e5d2ff
+lightRadius: 236
+fogRadius: 316
+
+outlines: false
+
+shownPlanets: [umbraline]
