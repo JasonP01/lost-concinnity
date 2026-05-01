@@ -65,7 +65,6 @@ drawer: {
           type: RegionPart
           suffix: "-light"
           outline: false
-          heatLight: true
         }
       ]
     }
