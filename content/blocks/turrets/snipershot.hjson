@@ -60,6 +60,14 @@ drawer: {
     {
       type: DrawTurret
       basePrefix: "luminescent-"
+      parts: [
+        {
+          type: RegionPart
+          suffix: "-light"
+          outline: false
+          heatLight: true
+        }
+      ]
     }
     {
       type: DrawGlowRegion
@@ -68,14 +76,6 @@ drawer: {
       alpha: 0.7
       glowScale: 30
       glowIntensity: 1.5
-    }
-  ]
-  parts: [
-    {
-      type: RegionPart
-      suffix: "-light"
-      outline: false
-      heatLight: true
     }
   ]
 }
