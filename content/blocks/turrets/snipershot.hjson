@@ -70,6 +70,14 @@ drawer: {
       glowIntensity: 1.5
     }
   ]
+  parts: [
+    {
+      type: RegionPart
+      suffix: "-light"
+      outline: false
+      heatLight: true
+    }
+  ]
 }
 requirements: [
   myacine/100
