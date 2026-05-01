@@ -61,7 +61,7 @@ drawer: {
     }
     {
       type: DrawGlowRegion
-      suffix: "-glow"
+      suffix: "-glow-block-4"
       color: da746d
       alpha: 0.7
       glowScale: 30
