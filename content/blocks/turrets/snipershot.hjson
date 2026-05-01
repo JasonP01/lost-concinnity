@@ -57,7 +57,7 @@ drawer: {
   drawers: [
     {
       type: DrawTurret
-      suffix: "luminescent-"
+      basePrefix: "luminescent-"
     }
     {
       type: DrawGlowRegion
