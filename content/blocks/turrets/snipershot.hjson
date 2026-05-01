@@ -8,6 +8,7 @@ shake: 2
 trackingRange: 680
 liquidCapacity: 500
 drawLiquidLight: true
+lightRadius: 64
 consumes: {
   power: 2
 }
