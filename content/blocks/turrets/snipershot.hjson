@@ -72,11 +72,16 @@ drawer: {
       ]
     }
     {
-      type: RegionPart
-      suffix: "-redlight"
-      heatLight: true
-      heatProgress: 1
-      heatColor: da746d
+      type: DrawGlowRegion
+      parts: [
+        {
+          type: RegionPart
+          suffix: "-redlight"
+          heatLight: true
+          heatProgress: 1
+          heatColor: da746d
+        }
+      ]
     }
   ]
 }
