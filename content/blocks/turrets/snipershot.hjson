@@ -66,7 +66,8 @@ drawer: {
           suffix: "-light"
           outline: false
           heatLight: true
-          heatProgress: 1
+          heatProgress: warmup
+          heatLightOpacity: 1
           heatColor: ff8c92
         }
       ]
