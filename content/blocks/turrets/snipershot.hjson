@@ -65,7 +65,9 @@ drawer: {
           type: RegionPart
           suffix: "-lights"
           outline: false
-          layer: 110
+          heatLight: true
+          heatProgress: 1
+          heatColor: ff8c92
         }
       ]
     }
