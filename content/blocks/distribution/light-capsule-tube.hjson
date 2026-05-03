@@ -1,6 +1,6 @@
 type: Duct
 health: 330
-speed: 2.5
+speed: 6
 requirements: [
   lycite/2
   myacine/1
