@@ -1,0 +1,9 @@
+type: Duct
+health: 330
+speed: 3.3
+requirements: [
+  lycite/2
+  myacine/1
+]
+category: distribution
+research: 
