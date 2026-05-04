@@ -6,7 +6,6 @@ customShadow: false
 health: 3000
 itemCapacity: 1500
 size: 5
-category: effect
 unitType: viewer
 unitCapModifier: 6
 hasPower: true
@@ -30,3 +29,5 @@ requirements: [
   lead/500
 ]
 shownPlanets: [umbraline]
+
+category: effect
