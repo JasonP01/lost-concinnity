@@ -19,8 +19,8 @@ predictTarget: false
 shootSound: none
 shoot: {
   type: shootSpread
-  shots: 3
-  spread: 15
+  shots: 6
+  spread: 7.5
 }
 shootType: {
   type: ContinuousFlameBulletType
@@ -37,7 +37,7 @@ shootType: {
   smokeEffect: none
   hitEffect: none
 
-  lightStroke: 20
+  lightStroke: 40
   lightOpacity: 0.66
   lightColor: cd94f9
   lengthInterp: pow10Out
