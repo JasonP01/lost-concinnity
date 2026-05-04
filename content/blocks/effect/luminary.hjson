@@ -19,8 +19,8 @@ predictTarget: false
 shootSound: none
 shoot: {
   type: shootSpread
-  shots: 6
-  spread: 7.5
+  shots: 15
+  spread: 3
 }
 shootType: {
   type: ContinuousFlameBulletType
