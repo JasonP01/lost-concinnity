@@ -38,6 +38,16 @@ shootType: {
   lengthInterp: pow10Out
 }
 
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawTurret
+      basePrefix: "luminescent-"
+    }
+  ]
+}
+
 requirements: [
   lycite/250
   myacine/500
