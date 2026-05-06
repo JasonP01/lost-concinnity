@@ -14,6 +14,15 @@ consumes: {
 shootCone: 1
 reload: 180
 recoil: 2
+shoot: {
+  type: ShootBarrel
+  shots: 2
+  shotDelay: 33
+  barrels: [
+  8, 8, 0
+  -8, -8, 0
+  ]
+}
 shootType: {
   type: BasicBulletType
   sprite: bullet
@@ -58,6 +67,17 @@ drawer: {
     {
       type: DrawTurret
       basePrefix: "luminescent-"
+      parts: [
+        {
+          type: RegionPart
+          suffix: "-barrel-R"
+          under: true
+          x: 8
+          y: 8
+          moveY: -4
+          progress: recoil
+        }
+      ]
     }
   ]
 }
