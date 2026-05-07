@@ -3,13 +3,14 @@ healthMultiplier: 2
 effectChance: 0.099
 effect: {
   type: ParticleEffect
-	lifetime: 40
-	region: lost-simulta-insinithe-concealed
-	sizeFrom: 1
-	sizeTo: 1
-	colorFrom: 000000
-	colorTo: 000000
-	length: 0
-	baseLength: 0
+  lifetime: 40
+  region: lost-simulta-insinithe-concealed
+  sizeFrom: 1
+  sizeTo: 1
+  colorFrom: 000000
+  colorTo: 000000
+  length: 0
+  baseLength: 0
   particles: 1
+  layer: 139
 }
