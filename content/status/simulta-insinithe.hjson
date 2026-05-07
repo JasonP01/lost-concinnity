@@ -5,8 +5,8 @@ effect: {
   type: ParticleEffect
   lifetime: 40
   region: lost-simulta-insinithe-concealed
-  sizeFrom: 1
-  sizeTo: 1
+  sizeFrom: 64
+  sizeTo: 64
   colorFrom: 000000
   colorTo: 000000
   length: 0
