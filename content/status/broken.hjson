@@ -2,7 +2,7 @@ damageMultiplier: 0.5
 healthMultiplier: 0.5
 speedMultiplier: 0.5
 reloadMultiplier: 0.5
-builSpeedMultiplier: 0.5
+buildSpeedMultiplier: 0.5
 dragMultiplier: 0.5
 
 intervalDamageTime: 72
