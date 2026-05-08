@@ -1,13 +1,4 @@
-let StatusEffect
-function Override StatusEffect(new = (){
-  
-  let testing: 1
-    
-  }
-
-
-  
-
+Events.on(Trigger.update, e => { if(Mathf.chance(2) { Vars.player.unit().apply(Vars.content.get(freeze), 60)  }})
 
   if(!Vars.testing && this.effect !== Fx.none && !unit.inFogTo(Vars.player.team()) && unit.health / unit.maxHealth <= 0.25) {
     Tmp.v1.rnd(Mathf.range(unit.type.hitSize * 0.5));
