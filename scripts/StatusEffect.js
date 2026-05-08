@@ -1,5 +1,7 @@
 const restr = Vars.content.getByName(ContentType.status, "lost-restrained");
-
+Log.info("EFFECT REGISTER/n/n/nEFFECT REGISTER/n/n/n");
+Log.info(restr);
+Log.info("EFFECT REGISTER/n/n/nEFFECT REGISTER/n/n/n");
 Events.run(Trigger.update, () => {
     if(Vars.state.isMenu() || !restr) return;
 
