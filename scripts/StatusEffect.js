@@ -1,8 +1,11 @@
-const restr = Vars.content.getByName(ContentType.status, "lost-restrained");
-Log.info("EFFECT REGISTER\n\n\nEFFECT REGISTER\n\n\n");
-Log.info(restr != null ? "true" : "false");
-Log.info("\n\n\nEFFECT REGISTER\n\n\nEFFECT REGISTER");
-Events.run(Trigger.update, () => {
+Events.on(ClientLoadEvent, () => {
+    const restr = Vars.content.getByName(ContentType.status, "lost-restrained");
+    Log.info("EFFECT REGISTER\n\n\nEFFECT REGISTER\n\n\n");
+    Log.info(restr != null ? "true" : "false");
+    Log.info("\n\n\nEFFECT REGISTER\n\n\nEFFECT REGISTER");
+});
+
+Events.on(Trigger.update, () => {
     if(Vars.state.isMenu() || !restr) return;
 
     if(Mathf.chance(0.02) && Vars.player.unit() != null) { 
