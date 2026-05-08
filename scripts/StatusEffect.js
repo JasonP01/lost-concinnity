@@ -4,3 +4,7 @@ Events.on(Trigger.update, e => { if(Mathf.chance(2) { Vars.player.unit().apply(V
     Tmp.v1.rnd(Mathf.range(unit.type.hitSize * 0.5));
     this.effect.at(unit.x + Tmp.v1.x, unit.y + Tmp.v1.y, 0.0, this.color, this.parentizeEffect ? unit : null);
   };
+
+module.exports = {
+  StatusEffect: StatusEffect
+}
